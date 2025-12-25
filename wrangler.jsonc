@@ -13,19 +13,5 @@
       "database_name": "farm2world-production",
       "database_id": "1670037d-7a51-4b7d-8b49-d918fc83c0e4"
     }
-  ],
-  // R2 Storage for product images
-  "r2_buckets": [
-    {
-      "binding": "IMAGES",
-      "bucket_name": "farm2world-images"
-    }
-  ],
-  // KV for caching and sessions
-  "kv_namespaces": [
-    {
-      "binding": "CACHE",
-      "id": "local-kv-id"
-    }
   ]
 }
