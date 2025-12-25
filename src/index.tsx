@@ -8,6 +8,11 @@ import auth from './routes/auth'
 import products from './routes/products'
 import orders from './routes/orders'
 import settlements from './routes/settlements'
+import ai from './routes/ai'
+import notifications from './routes/notifications'
+import quotations from './routes/quotations'
+import escrows from './routes/escrows'
+import dashboard from './routes/dashboard'
 
 const app = new Hono<{ Bindings: Env }>()
 
@@ -19,6 +24,11 @@ app.route('/api/auth', auth)
 app.route('/api/products', products)
 app.route('/api/orders', orders)
 app.route('/api/settlements', settlements)
+app.route('/api/ai', ai)
+app.route('/api/notifications', notifications)
+app.route('/api/quotations', quotations)
+app.route('/api/escrows', escrows)
+app.route('/api/dashboard', dashboard)
 
 // Frontend routes
 app.use(renderer)

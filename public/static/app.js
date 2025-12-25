@@ -105,6 +105,54 @@ if (document.getElementById('registerForm')) {
 
 // Product form handler
 if (document.getElementById('productForm')) {
+  // AI Price Suggestion
+  document.getElementById('category')?.addEventListener('change', async (e) => {
+    const category = e.target.value;
+    const productName = document.getElementById('name_ko').value;
+    const costPrice = parseFloat(document.getElementById('cost_price').value) || 0;
+    
+    if (category && productName) {
+      try {
+        const result = await apiRequest('/ai/suggest-price', {
+          method: 'POST',
+          body: JSON.stringify({ category, productName, costPrice })
+        });
+        
+        if (result.success) {
+          const suggestedPrice = result.pricing.suggestedPrice;
+          document.getElementById('price').value = suggestedPrice;
+          
+          // Show suggestion tooltip
+          showPriceSuggestion(result.pricing);
+        }
+      } catch (error) {
+        console.error('Price suggestion error:', error);
+      }
+    }
+  });
+  
+  // HS Code Suggestion
+  document.getElementById('category')?.addEventListener('change', async (e) => {
+    const category = e.target.value;
+    const productName = document.getElementById('name_ko').value;
+    
+    if (category) {
+      try {
+        const result = await apiRequest('/ai/suggest-hs-code', {
+          method: 'POST',
+          body: JSON.stringify({ category, productName })
+        });
+        
+        if (result.success) {
+          // Display HS Code suggestion
+          showHSCodeSuggestion(result);
+        }
+      } catch (error) {
+        console.error('HS Code suggestion error:', error);
+      }
+    }
+  });
+  
   document.getElementById('productForm').addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -135,36 +183,57 @@ if (document.getElementById('productForm')) {
       alert('상품 등록 실패: ' + error.message);
     }
   });
+  
+  function showPriceSuggestion(pricing) {
+    const priceInput = document.getElementById('price');
+    const tooltip = document.createElement('div');
+    tooltip.className = 'absolute mt-2 p-3 bg-blue-50 border border-blue-200 rounded-lg text-sm z-10';
+    tooltip.innerHTML = `
+      <div class="font-semibold mb-1">💡 AI 가격 추천</div>
+      <div>추천가: ₩${pricing.suggestedPrice.toLocaleString()}</div>
+      <div class="text-xs text-gray-600 mt-1">${pricing.reasoning}</div>
+    `;
+    
+    priceInput.parentElement.style.position = 'relative';
+    priceInput.parentElement.appendChild(tooltip);
+    
+    setTimeout(() => tooltip.remove(), 5000);
+  }
+  
+  function showHSCodeSuggestion(hsData) {
+    const categorySelect = document.getElementById('category');
+    const tooltip = document.createElement('div');
+    tooltip.className = 'absolute mt-2 p-3 bg-green-50 border border-green-200 rounded-lg text-sm z-10';
+    tooltip.innerHTML = `
+      <div class="font-semibold mb-1">📋 HS Code 추천</div>
+      <div>${hsData.hsCode} - ${hsData.description}</div>
+      <div class="text-xs text-gray-600 mt-1">신뢰도: ${(hsData.confidence * 100).toFixed(0)}%</div>
+    `;
+    
+    categorySelect.parentElement.style.position = 'relative';
+    categorySelect.parentElement.appendChild(tooltip);
+    
+    setTimeout(() => tooltip.remove(), 5000);
+  }
 }
 
 // Dashboard data loader
 if (window.location.pathname === '/dashboard') {
   async function loadDashboardData() {
     try {
-      // Load products count
-      const productsResult = await apiRequest('/products?limit=1');
-      if (productsResult.success) {
-        document.getElementById('totalProducts').textContent = 
-          productsResult.data.pagination.total;
-      }
-
-      // Load orders count
-      const ordersResult = await apiRequest('/orders?status=processing&limit=1');
-      if (ordersResult.success) {
-        document.getElementById('activeOrders').textContent = 
-          ordersResult.data.pagination.total;
-      }
-
-      // Load settlements summary
-      const settlementsResult = await apiRequest('/settlements/summary');
-      if (settlementsResult.success) {
-        const monthlyRevenue = settlementsResult.data.total_paid || 0;
+      // Get user ID from token (for demo, using hardcoded value 1)
+      const userId = 1; // In production, decode from JWT
+      
+      // Load dashboard stats
+      const statsResult = await apiRequest(`/dashboard/stats?userId=${userId}`);
+      if (statsResult.success) {
+        const stats = statsResult.stats;
+        document.getElementById('totalProducts').textContent = stats.products.total;
+        document.getElementById('activeOrders').textContent = stats.orders.active;
         document.getElementById('monthlyRevenue').textContent = 
-          '₩' + monthlyRevenue.toLocaleString();
-        
-        const pendingRevenue = settlementsResult.data.total_pending || 0;
+          '₩' + Math.round(stats.revenue.monthly).toLocaleString();
         document.getElementById('pendingSettlements').textContent = 
-          '₩' + pendingRevenue.toLocaleString();
+          '₩' + Math.round(stats.revenue.pendingSettlement).toLocaleString();
       }
 
       // Load recent orders
@@ -195,8 +264,40 @@ if (window.location.pathname === '/dashboard') {
           '<div class="text-gray-500 text-center py-4">주문이 없습니다</div>';
       }
 
+      // Load inventory alerts
+      loadInventoryAlerts(userId);
+
     } catch (error) {
       console.error('Dashboard data load error:', error);
+    }
+  }
+
+  async function loadInventoryAlerts(userId) {
+    try {
+      const result = await apiRequest('/notifications/check-inventory');
+      if (result.success && result.alerts.length > 0) {
+        const alertsHtml = result.alerts.map(alert => `
+          <div class="p-3 rounded ${alert.type === 'out_of_stock' ? 'bg-red-50 border border-red-200' : 'bg-yellow-50 border border-yellow-200'}">
+            <div class="font-semibold text-sm">${alert.productName}</div>
+            <div class="text-xs mt-1">재고: ${alert.stockQuantity}개</div>
+          </div>
+        `).join('');
+        
+        // Create alerts section if it doesn't exist
+        const dashboardElement = document.querySelector('.max-w-7xl');
+        if (dashboardElement && !document.getElementById('inventoryAlerts')) {
+          const alertSection = document.createElement('div');
+          alertSection.innerHTML = `
+            <div class="bg-white p-6 rounded-lg shadow mb-8">
+              <h3 class="text-xl font-bold mb-4">⚠️ 재고 알림</h3>
+              <div id="inventoryAlerts" class="space-y-2">${alertsHtml}</div>
+            </div>
+          `;
+          dashboardElement.insertBefore(alertSection, dashboardElement.children[2]);
+        }
+      }
+    } catch (error) {
+      console.error('Inventory alerts error:', error);
     }
   }
 
