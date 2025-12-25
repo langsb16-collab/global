@@ -813,6 +813,2031 @@ const translations = {
       submit: 'उत्पाद पंजीकृत करें',
       cancel: 'रद्द करें'
     }
+  },
+  'zh-TW': {
+    name: '中文（繁體）',
+    flag: '🇹🇼',
+    menu: {
+      dashboard: '儀表板',
+      products: '商品管理',
+      orders: '訂單管理',
+      settlements: '結算',
+      logout: '登出'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: '農水產品全球銷售代理平台',
+      description: '一次註冊即可自動上傳到全球10多個平台',
+      getStarted: '開始',
+      login: '登入'
+    },
+    features: {
+      title: '主要功能',
+      autoTranslation: '自動多語言翻譯',
+      autoTranslationDesc: '用韓語輸入後自動翻譯成英語、中文、日語',
+      multiPlatform: '10個平台同時上傳',
+      multiPlatformDesc: '自動註冊到Amazon、Shopee、Lazada、Etsy等',
+      settlement: '自動結算系統',
+      settlementDesc: '匯率、手續費自動計算及綜合結算'
+    },
+    platforms: {
+      title: '支援平台'
+    },
+    stats: {
+      totalProducts: '總商品數',
+      activeOrders: '進行中訂單',
+      monthlyRevenue: '本月銷售額',
+      pendingSettlements: '待結算'
+    },
+    quickActions: {
+      title: '快速開始',
+      newProduct: '新商品註冊',
+      manageProducts: '商品管理',
+      checkOrders: '訂單確認'
+    },
+    recentOrders: {
+      title: '最近訂單'
+    },
+    auth: {
+      loginTitle: '登入',
+      registerTitle: '註冊',
+      email: '電郵',
+      password: '密碼',
+      name: '姓名',
+      phone: '電話號碼',
+      businessName: '企業名稱',
+      loginButton: '登入',
+      registerButton: '註冊',
+      noAccount: '還沒有賬號？',
+      hasAccount: '已有賬號？'
+    },
+    product: {
+      title: '新商品註冊',
+      name: '商品名稱（韓語）',
+      description: '商品說明（韓語）',
+      category: '分類',
+      selectCategory: '請選擇',
+      seafood: '水產品',
+      grain: '穀物',
+      vegetable: '蔬菜',
+      fruit: '水果',
+      condiment: '調味料/醬類',
+      processed: '加工食品',
+      origin: '原產地地區',
+      price: '銷售價格（KRW）',
+      costPrice: '成本價（KRW）',
+      stock: '庫存數量',
+      weight: '重量',
+      unit: '單位',
+      autoTranslate: '啟用自動翻譯',
+      autoTranslateDesc: '（英語、中文、日語）',
+      submit: '註冊商品',
+      cancel: '取消'
+    }
+  },
+  'ms': {
+    name: 'Bahasa Melayu',
+    flag: '🇲🇾',
+    menu: {
+      dashboard: 'Papan Pemuka',
+      products: 'Pengurusan Produk',
+      orders: 'Pengurusan Pesanan',
+      settlements: 'Penyelesaian',
+      logout: 'Log Keluar'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Platform Jualan Produk Pertanian Global',
+      description: 'Daftar sekali untuk muat naik automatik ke 10+ platform global',
+      getStarted: 'Mula',
+      login: 'Log Masuk'
+    },
+    features: {
+      title: 'Ciri Utama',
+      autoTranslation: 'Terjemahan Berbilang Bahasa Automatik',
+      autoTranslationDesc: 'Terjemahan automatik ke Bahasa Inggeris, Cina, Jepun',
+      multiPlatform: 'Muat Naik ke 10+ Platform',
+      multiPlatformDesc: 'Pendaftaran automatik ke Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Sistem Penyelesaian Automatik',
+      settlementDesc: 'Pengiraan kadar pertukaran dan yuran automatik'
+    },
+    platforms: {
+      title: 'Platform Yang Disokong'
+    },
+    stats: {
+      totalProducts: 'Jumlah Produk',
+      activeOrders: 'Pesanan Aktif',
+      monthlyRevenue: 'Hasil Bulanan',
+      pendingSettlements: 'Penyelesaian Tertangguh'
+    },
+    quickActions: {
+      title: 'Tindakan Pantas',
+      newProduct: 'Daftar Produk Baru',
+      manageProducts: 'Urus Produk',
+      checkOrders: 'Semak Pesanan'
+    },
+    recentOrders: {
+      title: 'Pesanan Terkini'
+    },
+    auth: {
+      loginTitle: 'Log Masuk',
+      registerTitle: 'Daftar',
+      email: 'E-mel',
+      password: 'Kata Laluan',
+      name: 'Nama',
+      phone: 'Nombor Telefon',
+      businessName: 'Nama Perniagaan',
+      loginButton: 'Log Masuk',
+      registerButton: 'Daftar',
+      noAccount: 'Belum ada akaun?',
+      hasAccount: 'Sudah ada akaun?'
+    },
+    product: {
+      title: 'Pendaftaran Produk Baru',
+      name: 'Nama Produk (Korea)',
+      description: 'Penerangan Produk (Korea)',
+      category: 'Kategori',
+      selectCategory: 'Sila pilih',
+      seafood: 'Makanan Laut',
+      grain: 'Bijirin',
+      vegetable: 'Sayur-sayuran',
+      fruit: 'Buah-buahan',
+      condiment: 'Perasa/Sos',
+      processed: 'Makanan Diproses',
+      origin: 'Wilayah Asal',
+      price: 'Harga Jualan (KRW)',
+      costPrice: 'Harga Kos (KRW)',
+      stock: 'Kuantiti Stok',
+      weight: 'Berat',
+      unit: 'Unit',
+      autoTranslate: 'Dayakan Terjemahan Automatik',
+      autoTranslateDesc: '(Inggeris, Cina, Jepun)',
+      submit: 'Daftar Produk',
+      cancel: 'Batal'
+    }
+  },
+  'fil': {
+    name: 'Filipino',
+    flag: '🇵🇭',
+    menu: {
+      dashboard: 'Dashboard',
+      products: 'Pamamahala ng Produkto',
+      orders: 'Pamamahala ng Order',
+      settlements: 'Pagbabayad',
+      logout: 'Mag-logout'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Global Agricultural Products Sales Platform',
+      description: 'Magrehistro nang isang beses para sa awtomatikong pag-upload sa 10+ global platforms',
+      getStarted: 'Magsimula',
+      login: 'Mag-login'
+    },
+    features: {
+      title: 'Mga Pangunahing Feature',
+      autoTranslation: 'Awtomatikong Multi-language Translation',
+      autoTranslationDesc: 'Awtomatikong pagsasalin sa Ingles, Tsino, Hapon',
+      multiPlatform: 'Upload sa 10+ Platforms',
+      multiPlatformDesc: 'Awtomatikong pagpaparehistro sa Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Awtomatikong Settlement System',
+      settlementDesc: 'Awtomatikong kalkulasyon ng exchange rate at bayad'
+    },
+    platforms: {
+      title: 'Suportadong Platforms'
+    },
+    stats: {
+      totalProducts: 'Kabuuang Produkto',
+      activeOrders: 'Aktibong Orders',
+      monthlyRevenue: 'Buwanang Kita',
+      pendingSettlements: 'Nakabinbing Pagbabayad'
+    },
+    quickActions: {
+      title: 'Mabilis na Aksyon',
+      newProduct: 'Magparehistro ng Bagong Produkto',
+      manageProducts: 'Pamahalaan ang Produkto',
+      checkOrders: 'Tingnan ang Orders'
+    },
+    recentOrders: {
+      title: 'Kamakailang Orders'
+    },
+    auth: {
+      loginTitle: 'Mag-login',
+      registerTitle: 'Magparehistro',
+      email: 'Email',
+      password: 'Password',
+      name: 'Pangalan',
+      phone: 'Numero ng Telepono',
+      businessName: 'Pangalan ng Negosyo',
+      loginButton: 'Mag-login',
+      registerButton: 'Magparehistro',
+      noAccount: 'Walang account?',
+      hasAccount: 'Mayroon nang account?'
+    },
+    product: {
+      title: 'Bagong Produktong Rehistro',
+      name: 'Pangalan ng Produkto (Korean)',
+      description: 'Deskripsyon ng Produkto (Korean)',
+      category: 'Kategorya',
+      selectCategory: 'Mangyaring pumili',
+      seafood: 'Pagkaing-dagat',
+      grain: 'Butil',
+      vegetable: 'Gulay',
+      fruit: 'Prutas',
+      condiment: 'Pampalasa/Sarsa',
+      processed: 'Processed Food',
+      origin: 'Rehiyon ng Pinagmulan',
+      price: 'Presyo ng Benta (KRW)',
+      costPrice: 'Presyo ng Gastos (KRW)',
+      stock: 'Dami ng Stock',
+      weight: 'Timbang',
+      unit: 'Yunit',
+      autoTranslate: 'I-enable ang Awtomatikong Pagsasalin',
+      autoTranslateDesc: '(Ingles, Tsino, Hapon)',
+      submit: 'Magparehistro ng Produkto',
+      cancel: 'Kanselahin'
+    }
+  },
+  'fr': {
+    name: 'Français',
+    flag: '🇨🇦',
+    menu: {
+      dashboard: 'Tableau de bord',
+      products: 'Gestion des produits',
+      orders: 'Gestion des commandes',
+      settlements: 'Règlements',
+      logout: 'Déconnexion'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Plateforme mondiale de vente de produits agricoles',
+      description: 'Inscrivez-vous une fois pour télécharger automatiquement sur 10+ plateformes mondiales',
+      getStarted: 'Commencer',
+      login: 'Connexion'
+    },
+    features: {
+      title: 'Fonctionnalités principales',
+      autoTranslation: 'Traduction automatique multilingue',
+      autoTranslationDesc: 'Traduction automatique en anglais, chinois, japonais',
+      multiPlatform: 'Télécharger sur 10+ plateformes',
+      multiPlatformDesc: 'Inscription automatique sur Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Système de règlement automatique',
+      settlementDesc: 'Calcul automatique du taux de change et des frais'
+    },
+    platforms: {
+      title: 'Plateformes supportées'
+    },
+    stats: {
+      totalProducts: 'Total des produits',
+      activeOrders: 'Commandes actives',
+      monthlyRevenue: 'Revenus mensuels',
+      pendingSettlements: 'Règlements en attente'
+    },
+    quickActions: {
+      title: 'Actions rapides',
+      newProduct: 'Enregistrer un nouveau produit',
+      manageProducts: 'Gérer les produits',
+      checkOrders: 'Vérifier les commandes'
+    },
+    recentOrders: {
+      title: 'Commandes récentes'
+    },
+    auth: {
+      loginTitle: 'Connexion',
+      registerTitle: 'Inscription',
+      email: 'E-mail',
+      password: 'Mot de passe',
+      name: 'Nom',
+      phone: 'Numéro de téléphone',
+      businessName: "Nom de l'entreprise",
+      loginButton: 'Connexion',
+      registerButton: "S'inscrire",
+      noAccount: "Pas de compte?",
+      hasAccount: 'Déjà un compte?'
+    },
+    product: {
+      title: 'Enregistrement de nouveau produit',
+      name: 'Nom du produit (Coréen)',
+      description: 'Description du produit (Coréen)',
+      category: 'Catégorie',
+      selectCategory: 'Veuillez sélectionner',
+      seafood: 'Fruits de mer',
+      grain: 'Céréales',
+      vegetable: 'Légumes',
+      fruit: 'Fruits',
+      condiment: 'Condiments/Sauces',
+      processed: 'Aliments transformés',
+      origin: "Région d'origine",
+      price: 'Prix de vente (KRW)',
+      costPrice: 'Prix de revient (KRW)',
+      stock: 'Quantité en stock',
+      weight: 'Poids',
+      unit: 'Unité',
+      autoTranslate: 'Activer la traduction automatique',
+      autoTranslateDesc: '(Anglais, Chinois, Japonais)',
+      submit: 'Enregistrer le produit',
+      cancel: 'Annuler'
+    }
+  },
+  'de': {
+    name: 'Deutsch',
+    flag: '🇪🇺',
+    menu: {
+      dashboard: 'Dashboard',
+      products: 'Produktverwaltung',
+      orders: 'Auftragsverwaltung',
+      settlements: 'Abrechnungen',
+      logout: 'Abmelden'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Globale Verkaufsplattform für Agrarprodukte',
+      description: 'Einmal registrieren für automatischen Upload auf 10+ globale Plattformen',
+      getStarted: 'Beginnen',
+      login: 'Anmelden'
+    },
+    features: {
+      title: 'Hauptfunktionen',
+      autoTranslation: 'Automatische mehrsprachige Übersetzung',
+      autoTranslationDesc: 'Automatische Übersetzung ins Englische, Chinesische, Japanische',
+      multiPlatform: 'Upload auf 10+ Plattformen',
+      multiPlatformDesc: 'Automatische Registrierung bei Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Automatisches Abrechnungssystem',
+      settlementDesc: 'Automatische Berechnung von Wechselkurs und Gebühren'
+    },
+    platforms: {
+      title: 'Unterstützte Plattformen'
+    },
+    stats: {
+      totalProducts: 'Gesamtprodukte',
+      activeOrders: 'Aktive Bestellungen',
+      monthlyRevenue: 'Monatlicher Umsatz',
+      pendingSettlements: 'Ausstehende Abrechnungen'
+    },
+    quickActions: {
+      title: 'Schnellaktionen',
+      newProduct: 'Neues Produkt registrieren',
+      manageProducts: 'Produkte verwalten',
+      checkOrders: 'Bestellungen prüfen'
+    },
+    recentOrders: {
+      title: 'Letzte Bestellungen'
+    },
+    auth: {
+      loginTitle: 'Anmelden',
+      registerTitle: 'Registrieren',
+      email: 'E-Mail',
+      password: 'Passwort',
+      name: 'Name',
+      phone: 'Telefonnummer',
+      businessName: 'Firmenname',
+      loginButton: 'Anmelden',
+      registerButton: 'Registrieren',
+      noAccount: 'Kein Konto?',
+      hasAccount: 'Bereits ein Konto?'
+    },
+    product: {
+      title: 'Neue Produktregistrierung',
+      name: 'Produktname (Koreanisch)',
+      description: 'Produktbeschreibung (Koreanisch)',
+      category: 'Kategorie',
+      selectCategory: 'Bitte wählen',
+      seafood: 'Meeresfrüchte',
+      grain: 'Getreide',
+      vegetable: 'Gemüse',
+      fruit: 'Obst',
+      condiment: 'Gewürze/Saucen',
+      processed: 'Verarbeitete Lebensmittel',
+      origin: 'Herkunftsregion',
+      price: 'Verkaufspreis (KRW)',
+      costPrice: 'Kostenpreis (KRW)',
+      stock: 'Lagermenge',
+      weight: 'Gewicht',
+      unit: 'Einheit',
+      autoTranslate: 'Automatische Übersetzung aktivieren',
+      autoTranslateDesc: '(Englisch, Chinesisch, Japanisch)',
+      submit: 'Produkt registrieren',
+      cancel: 'Abbrechen'
+    }
+  },
+  'he': {
+    name: 'עברית',
+    flag: '🇮🇱',
+    menu: {
+      dashboard: 'לוח בקרה',
+      products: 'ניהול מוצרים',
+      orders: 'ניהול הזמנות',
+      settlements: 'התחשבנויות',
+      logout: 'התנתקות'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'פלטפורמת מכירות מוצרים חקלאיים גלובלית',
+      description: 'הירשם פעם אחת להעלאה אוטומטית ל-10+ פלטפורמות גלובליות',
+      getStarted: 'התחל',
+      login: 'התחברות'
+    },
+    features: {
+      title: 'תכונות עיקריות',
+      autoTranslation: 'תרגום רב-לשוני אוטומטי',
+      autoTranslationDesc: 'תרגום אוטומטי לאנגלית, סינית, יפנית',
+      multiPlatform: 'העלאה ל-10+ פלטפורמות',
+      multiPlatformDesc: 'רישום אוטומטי ב-Amazon, Shopee, Lazada, Etsy',
+      settlement: 'מערכת התחשבנות אוטומטית',
+      settlementDesc: 'חישוב אוטומטי של שער חליפין ועמלות'
+    },
+    platforms: {
+      title: 'פלטפורמות נתמכות'
+    },
+    stats: {
+      totalProducts: 'סך המוצרים',
+      activeOrders: 'הזמנות פעילות',
+      monthlyRevenue: 'הכנסות חודשיות',
+      pendingSettlements: 'התחשבנויות ממתינות'
+    },
+    quickActions: {
+      title: 'פעולות מהירות',
+      newProduct: 'רשום מוצר חדש',
+      manageProducts: 'נהל מוצרים',
+      checkOrders: 'בדוק הזמנות'
+    },
+    recentOrders: {
+      title: 'הזמנות אחרונות'
+    },
+    auth: {
+      loginTitle: 'התחברות',
+      registerTitle: 'הרשמה',
+      email: 'דוא"ל',
+      password: 'סיסמה',
+      name: 'שם',
+      phone: 'מספר טלפון',
+      businessName: 'שם העסק',
+      loginButton: 'התחבר',
+      registerButton: 'הירשם',
+      noAccount: 'אין חשבון?',
+      hasAccount: 'כבר יש חשבון?'
+    },
+    product: {
+      title: 'רישום מוצר חדש',
+      name: 'שם המוצר (קוריאנית)',
+      description: 'תיאור המוצר (קוריאנית)',
+      category: 'קטגוריה',
+      selectCategory: 'אנא בחר',
+      seafood: 'פירות ים',
+      grain: 'דגנים',
+      vegetable: 'ירקות',
+      fruit: 'פירות',
+      condiment: 'תבלינים/רטבים',
+      processed: 'מזון מעובד',
+      origin: 'אזור מקור',
+      price: 'מחיר מכירה (KRW)',
+      costPrice: 'מחיר עלות (KRW)',
+      stock: 'כמות במלאי',
+      weight: 'משקל',
+      unit: 'יחידה',
+      autoTranslate: 'הפעל תרגום אוטומטי',
+      autoTranslateDesc: '(אנגלית, סינית, יפנית)',
+      submit: 'רשום מוצר',
+      cancel: 'ביטול'
+    }
+  },
+  'kk': {
+    name: 'Қазақ тілі',
+    flag: '🇰🇿',
+    menu: {
+      dashboard: 'Басқару тақтасы',
+      products: 'Өнім басқару',
+      orders: 'Тапсырыс басқару',
+      settlements: 'Есеп айырысу',
+      logout: 'Шығу'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Ауыл шаруашылығы өнімдерін жаһандық сату платформасы',
+      description: 'Бір рет тіркелу арқылы 10+ жаһандық платформаларға автоматты түрде жүктеңіз',
+      getStarted: 'Бастау',
+      login: 'Кіру'
+    },
+    features: {
+      title: 'Негізгі мүмкіндіктер',
+      autoTranslation: 'Автоматты көптілді аударма',
+      autoTranslationDesc: 'Ағылшын, қытай, жапон тілдеріне автоматты аударма',
+      multiPlatform: '10+ платформаларға жүктеу',
+      multiPlatformDesc: 'Amazon, Shopee, Lazada, Etsy платформаларына автоматты тіркеу',
+      settlement: 'Автоматты есеп айырысу жүйесі',
+      settlementDesc: 'Валюта бағамы мен комиссияны автоматты есептеу'
+    },
+    platforms: {
+      title: 'Қолдау көрсетілетін платформалар'
+    },
+    stats: {
+      totalProducts: 'Барлық өнімдер',
+      activeOrders: 'Белсенді тапсырыстар',
+      monthlyRevenue: 'Айлық кіріс',
+      pendingSettlements: 'Күтудегі есеп айырысулар'
+    },
+    quickActions: {
+      title: 'Жылдам әрекеттер',
+      newProduct: 'Жаңа өнімді тіркеу',
+      manageProducts: 'Өнімдерді басқару',
+      checkOrders: 'Тапсырыстарды тексеру'
+    },
+    recentOrders: {
+      title: 'Соңғы тапсырыстар'
+    },
+    auth: {
+      loginTitle: 'Кіру',
+      registerTitle: 'Тіркелу',
+      email: 'Электрондық пошта',
+      password: 'Құпия сөз',
+      name: 'Аты',
+      phone: 'Телефон нөмірі',
+      businessName: 'Бизнес атауы',
+      loginButton: 'Кіру',
+      registerButton: 'Тіркелу',
+      noAccount: 'Аккаунт жоқ па?',
+      hasAccount: 'Аккаунт бар ма?'
+    },
+    product: {
+      title: 'Жаңа өнімді тіркеу',
+      name: 'Өнім атауы (Корей тілі)',
+      description: 'Өнім сипаттамасы (Корей тілі)',
+      category: 'Санат',
+      selectCategory: 'Таңдаңыз',
+      seafood: 'Теңіз өнімдері',
+      grain: 'Дәнді дақылдар',
+      vegetable: 'Көкөністер',
+      fruit: 'Жемістер',
+      condiment: 'Дәмдеуіштер/Тұздықтар',
+      processed: 'Өңделген тамақ',
+      origin: 'Шығу аймағы',
+      price: 'Сату бағасы (KRW)',
+      costPrice: 'Өзіндік құны (KRW)',
+      stock: 'Қор саны',
+      weight: 'Салмағы',
+      unit: 'Өлшем бірлігі',
+      autoTranslate: 'Автоматты аудармаын қосу',
+      autoTranslateDesc: '(Ағылшын, Қытай, Жапон)',
+      submit: 'Өнімді тіркеу',
+      cancel: 'Болдырмау'
+    }
+  },
+  'uz': {
+    name: 'Oʻzbekcha',
+    flag: '🇺🇿',
+    menu: {
+      dashboard: 'Boshqaruv paneli',
+      products: 'Mahsulotlarni boshqarish',
+      orders: 'Buyurtmalarni boshqarish',
+      settlements: 'Hisob-kitoblar',
+      logout: 'Chiqish'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Qishloq xoʻjaligi mahsulotlarini global sotish platformasi',
+      description: 'Bir marta roʻyxatdan oʻting va 10+ global platformalarga avtomatik yuklang',
+      getStarted: 'Boshlash',
+      login: 'Kirish'
+    },
+    features: {
+      title: 'Asosiy xususiyatlar',
+      autoTranslation: 'Avtomatik koʻp tilli tarjima',
+      autoTranslationDesc: 'Ingliz, Xitoy, Yapon tillariga avtomatik tarjima',
+      multiPlatform: '10+ platformalarga yuklash',
+      multiPlatformDesc: 'Amazon, Shopee, Lazada, Etsy platformalariga avtomatik roʻyxatdan oʻtish',
+      settlement: 'Avtomatik hisob-kitob tizimi',
+      settlementDesc: 'Valyuta kursi va toʻlovlarni avtomatik hisoblash'
+    },
+    platforms: {
+      title: 'Qoʻllab-quvvatlanadigan platformalar'
+    },
+    stats: {
+      totalProducts: 'Jami mahsulotlar',
+      activeOrders: 'Faol buyurtmalar',
+      monthlyRevenue: 'Oylik daromad',
+      pendingSettlements: 'Kutilayotgan hisob-kitoblar'
+    },
+    quickActions: {
+      title: 'Tez harakatlar',
+      newProduct: 'Yangi mahsulotni roʻyxatdan oʻtkazish',
+      manageProducts: 'Mahsulotlarni boshqarish',
+      checkOrders: 'Buyurtmalarni tekshirish'
+    },
+    recentOrders: {
+      title: 'Soʻnggi buyurtmalar'
+    },
+    auth: {
+      loginTitle: 'Kirish',
+      registerTitle: 'Roʻyxatdan oʻtish',
+      email: 'Elektron pochta',
+      password: 'Parol',
+      name: 'Ism',
+      phone: 'Telefon raqami',
+      businessName: 'Biznes nomi',
+      loginButton: 'Kirish',
+      registerButton: 'Roʻyxatdan oʻtish',
+      noAccount: 'Akkaunt yoʻqmi?',
+      hasAccount: 'Akkaunt bormi?'
+    },
+    product: {
+      title: 'Yangi mahsulotni roʻyxatdan oʻtkazish',
+      name: 'Mahsulot nomi (Koreys tili)',
+      description: 'Mahsulot tavsifi (Koreys tili)',
+      category: 'Kategoriya',
+      selectCategory: 'Iltimos tanlang',
+      seafood: 'Dengiz mahsulotlari',
+      grain: 'Don mahsulotlari',
+      vegetable: 'Sabzavotlar',
+      fruit: 'Mevalar',
+      condiment: 'Ziravorlar/Souslar',
+      processed: 'Qayta ishlangan oziq-ovqat',
+      origin: 'Kelib chiqish hududi',
+      price: 'Sotish narxi (KRW)',
+      costPrice: 'Tannarx (KRW)',
+      stock: 'Zaxira miqdori',
+      weight: 'Ogʻirligi',
+      unit: 'Oʻlchov birligi',
+      autoTranslate: 'Avtomatik tarjimani yoqish',
+      autoTranslateDesc: '(Ingliz, Xitoy, Yapon)',
+      submit: 'Mahsulotni roʻyxatdan oʻtkazish',
+      cancel: 'Bekor qilish'
+    }
+  },
+  'mn': {
+    name: 'Монгол хэл',
+    flag: '🇲🇳',
+    menu: {
+      dashboard: 'Хяналтын самбар',
+      products: 'Бүтээгдэхүүн удирдлага',
+      orders: 'Захиалга удирдлага',
+      settlements: 'Тооцоо',
+      logout: 'Гарах'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Хөдөө аж ахуйн бүтээгдэхүүний дэлхийн борлуулалтын платформ',
+      description: 'Нэг удаа бүртгүүлж 10+ дэлхийн платформуудад автоматаар байршуулах',
+      getStarted: 'Эхлэх',
+      login: 'Нэвтрэх'
+    },
+    features: {
+      title: 'Үндсэн функцүүд',
+      autoTranslation: 'Автомат олон хэлний орчуулга',
+      autoTranslationDesc: 'Англи, Хятад, Япон хэл рүү автоматаар орчуулах',
+      multiPlatform: '10+ платформд байршуулах',
+      multiPlatformDesc: 'Amazon, Shopee, Lazada, Etsy платформуудад автоматаар бүртгүүлэх',
+      settlement: 'Автомат тооцооллын систем',
+      settlementDesc: 'Валютын ханш болон хураамжийг автоматаар тооцоолох'
+    },
+    platforms: {
+      title: 'Дэмждэг платформууд'
+    },
+    stats: {
+      totalProducts: 'Нийт бүтээгдэхүүн',
+      activeOrders: 'Идэвхтэй захиалга',
+      monthlyRevenue: 'Сарын орлого',
+      pendingSettlements: 'Хүлээгдэж буй тооцоо'
+    },
+    quickActions: {
+      title: 'Хурдан үйлдлүүд',
+      newProduct: 'Шинэ бүтээгдэхүүн бүртгэх',
+      manageProducts: 'Бүтээгдэхүүн удирдах',
+      checkOrders: 'Захиалга шалгах'
+    },
+    recentOrders: {
+      title: 'Сүүлийн захиалгууд'
+    },
+    auth: {
+      loginTitle: 'Нэвтрэх',
+      registerTitle: 'Бүртгүүлэх',
+      email: 'Имэйл',
+      password: 'Нууц үг',
+      name: 'Нэр',
+      phone: 'Утасны дугаар',
+      businessName: 'Бизнесийн нэр',
+      loginButton: 'Нэвтрэх',
+      registerButton: 'Бүртгүүлэх',
+      noAccount: 'Бүртгэл байхгүй юу?',
+      hasAccount: 'Бүртгэлтэй юу?'
+    },
+    product: {
+      title: 'Шинэ бүтээгдэхүүн бүртгэх',
+      name: 'Бүтээгдэхүүний нэр (Солонгос хэл)',
+      description: 'Бүтээгдэхүүний тодорхойлолт (Солонгос хэл)',
+      category: 'Ангилал',
+      selectCategory: 'Сонгоно уу',
+      seafood: 'Далайн хоол',
+      grain: 'Үр тариа',
+      vegetable: 'Хүнсний ногоо',
+      fruit: 'Жимс',
+      condiment: 'Амтлагч/Соус',
+      processed: 'Боловсруулсан хүнс',
+      origin: 'Гарал үүслийн бүс',
+      price: 'Борлуулалтын үнэ (KRW)',
+      costPrice: 'Өртөг (KRW)',
+      stock: 'Нөөцийн тоо хэмжээ',
+      weight: 'Жин',
+      unit: 'Нэгж',
+      autoTranslate: 'Автомат орчуулга идэвхжүүлэх',
+      autoTranslateDesc: '(Англи, Хятад, Япон)',
+      submit: 'Бүтээгдэхүүн бүртгэх',
+      cancel: 'Цуцлах'
+    }
+  },
+  'ru': {
+    name: 'Русский',
+    flag: '🇷🇺',
+    menu: {
+      dashboard: 'Панель управления',
+      products: 'Управление продуктами',
+      orders: 'Управление заказами',
+      settlements: 'Расчеты',
+      logout: 'Выйти'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Глобальная платформа продаж сельхозпродукции',
+      description: 'Зарегистрируйтесь один раз для автоматической загрузки на 10+ глобальных платформ',
+      getStarted: 'Начать',
+      login: 'Войти'
+    },
+    features: {
+      title: 'Основные функции',
+      autoTranslation: 'Автоматический многоязычный перевод',
+      autoTranslationDesc: 'Автоматический перевод на английский, китайский, японский',
+      multiPlatform: 'Загрузка на 10+ платформ',
+      multiPlatformDesc: 'Автоматическая регистрация на Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Автоматическая система расчетов',
+      settlementDesc: 'Автоматический расчет обменного курса и комиссий'
+    },
+    platforms: {
+      title: 'Поддерживаемые платформы'
+    },
+    stats: {
+      totalProducts: 'Всего продуктов',
+      activeOrders: 'Активные заказы',
+      monthlyRevenue: 'Месячный доход',
+      pendingSettlements: 'Ожидающие расчеты'
+    },
+    quickActions: {
+      title: 'Быстрые действия',
+      newProduct: 'Зарегистрировать новый продукт',
+      manageProducts: 'Управление продуктами',
+      checkOrders: 'Проверить заказы'
+    },
+    recentOrders: {
+      title: 'Последние заказы'
+    },
+    auth: {
+      loginTitle: 'Войти',
+      registerTitle: 'Регистрация',
+      email: 'Эл. почта',
+      password: 'Пароль',
+      name: 'Имя',
+      phone: 'Номер телефона',
+      businessName: 'Название компании',
+      loginButton: 'Войти',
+      registerButton: 'Зарегистрироваться',
+      noAccount: 'Нет аккаунта?',
+      hasAccount: 'Уже есть аккаунт?'
+    },
+    product: {
+      title: 'Регистрация нового продукта',
+      name: 'Название продукта (Корейский)',
+      description: 'Описание продукта (Корейский)',
+      category: 'Категория',
+      selectCategory: 'Пожалуйста, выберите',
+      seafood: 'Морепродукты',
+      grain: 'Зерновые',
+      vegetable: 'Овощи',
+      fruit: 'Фрукты',
+      condiment: 'Приправы/Соусы',
+      processed: 'Обработанные продукты',
+      origin: 'Регион происхождения',
+      price: 'Цена продажи (KRW)',
+      costPrice: 'Себестоимость (KRW)',
+      stock: 'Количество на складе',
+      weight: 'Вес',
+      unit: 'Единица',
+      autoTranslate: 'Включить автоматический перевод',
+      autoTranslateDesc: '(Английский, Китайский, Японский)',
+      submit: 'Зарегистрировать продукт',
+      cancel: 'Отмена'
+    }
+  },
+  'ta': {
+    name: 'தமிழ்',
+    flag: '🇸🇬',
+    menu: {
+      dashboard: 'கட்டுப்பாட்டு பலகை',
+      products: 'தயாரிப்பு மேலாண்மை',
+      orders: 'ஆர்டர் மேலாண்மை',
+      settlements: 'தீர்வுகள்',
+      logout: 'வெளியேறு'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'உலகளாவிய விவசாய தயாரிப்புகள் விற்பனை தளம்',
+      description: 'ஒரு முறை பதிவு செய்து 10+ உலகளாவிய தளங்களில் தானாக பதிவேற்றவும்',
+      getStarted: 'தொடங்கு',
+      login: 'உள்நுழை'
+    },
+    features: {
+      title: 'முக்கிய அம்சங்கள்',
+      autoTranslation: 'தானியங்கி பல மொழி மொழிபெயர்ப்பு',
+      autoTranslationDesc: 'ஆங்கிலம், சீனம், ஜப்பானியத்திற்கு தானாக மொழிபெயர்ப்பு',
+      multiPlatform: '10+ தளங்களில் பதிவேற்றம்',
+      multiPlatformDesc: 'Amazon, Shopee, Lazada, Etsy இல் தானியங்கி பதிவு',
+      settlement: 'தானியங்கி தீர்வு அமைப்பு',
+      settlementDesc: 'மாற்று விகிதம் மற்றும் கட்டணத்தின் தானியங்கி கணக்கீடு'
+    },
+    platforms: {
+      title: 'ஆதரவளிக்கப்படும் தளங்கள்'
+    },
+    stats: {
+      totalProducts: 'மொத்த தயாரிப்புகள்',
+      activeOrders: 'செயல்பாட்டு ஆர்டர்கள்',
+      monthlyRevenue: 'மாதாந்திர வருமானம்',
+      pendingSettlements: 'நிலுவையில் உள்ள தீர்வுகள்'
+    },
+    quickActions: {
+      title: 'விரைவான செயல்கள்',
+      newProduct: 'புதிய தயாரிப்பு பதிவு',
+      manageProducts: 'தயாரிப்புகளை நிர்வகி',
+      checkOrders: 'ஆர்டர்களை சரிபார்'
+    },
+    recentOrders: {
+      title: 'சமீபத்திய ஆர்டர்கள்'
+    },
+    auth: {
+      loginTitle: 'உள்நுழை',
+      registerTitle: 'பதிவு செய்',
+      email: 'மின்னஞ்சல்',
+      password: 'கடவுச்சொல்',
+      name: 'பெயர்',
+      phone: 'தொலைபேசி எண்',
+      businessName: 'வணிக பெயர்',
+      loginButton: 'உள்நுழை',
+      registerButton: 'பதிவு செய்',
+      noAccount: 'கணக்கு இல்லையா?',
+      hasAccount: 'ஏற்கனவே கணக்கு உள்ளதா?'
+    },
+    product: {
+      title: 'புதிய தயாரிப்பு பதிவு',
+      name: 'தயாரிப்பு பெயர் (கொரியன்)',
+      description: 'தயாரிப்பு விளக்கம் (கொரியன்)',
+      category: 'வகை',
+      selectCategory: 'தயவுசெய்து தேர்வு செய்',
+      seafood: 'கடல் உணவு',
+      grain: 'தானியங்கள்',
+      vegetable: 'காய்கறிகள்',
+      fruit: 'பழங்கள்',
+      condiment: 'மசாலா/சாஸ்',
+      processed: 'செயலாக்கப்பட்ட உணவு',
+      origin: 'பிறப்பிட பகுதி',
+      price: 'விற்பனை விலை (KRW)',
+      costPrice: 'செலவு விலை (KRW)',
+      stock: 'இருப்பு அளவு',
+      weight: 'எடை',
+      unit: 'அலகு',
+      autoTranslate: 'தானியங்கி மொழிபெயர்ப்பை இயக்கு',
+      autoTranslateDesc: '(ஆங்கிலம், சீனம், ஜப்பானியம்)',
+      submit: 'தயாரிப்பை பதிவு செய்',
+      cancel: 'ரத்து செய்'
+    }
+  },
+  'en-SG': {
+    name: 'English (Singapore)',
+    flag: '🇸🇬',
+    menu: {
+      dashboard: 'Dashboard',
+      products: 'Products',
+      orders: 'Orders',
+      settlements: 'Settlements',
+      logout: 'Logout'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Global Agricultural Products Sales Platform',
+      description: 'Register once to automatically upload to 10+ global platforms',
+      getStarted: 'Get Started',
+      login: 'Login'
+    },
+    features: {
+      title: 'Key Features',
+      autoTranslation: 'Automatic Multi-language Translation',
+      autoTranslationDesc: 'Automatic translation to English, Chinese, Japanese',
+      multiPlatform: 'Upload to 10+ Platforms',
+      multiPlatformDesc: 'Automatic registration to Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Automatic Settlement System',
+      settlementDesc: 'Automatic exchange rate and fee calculation'
+    },
+    platforms: {
+      title: 'Supported Platforms'
+    },
+    stats: {
+      totalProducts: 'Total Products',
+      activeOrders: 'Active Orders',
+      monthlyRevenue: 'Monthly Revenue',
+      pendingSettlements: 'Pending Settlements'
+    },
+    quickActions: {
+      title: 'Quick Actions',
+      newProduct: 'Register New Product',
+      manageProducts: 'Manage Products',
+      checkOrders: 'Check Orders'
+    },
+    recentOrders: {
+      title: 'Recent Orders'
+    },
+    auth: {
+      loginTitle: 'Login',
+      registerTitle: 'Register',
+      email: 'Email',
+      password: 'Password',
+      name: 'Name',
+      phone: 'Phone Number',
+      businessName: 'Business Name',
+      loginButton: 'Login',
+      registerButton: 'Register',
+      noAccount: 'Don\'t have an account?',
+      hasAccount: 'Already have an account?'
+    },
+    product: {
+      title: 'New Product Registration',
+      name: 'Product Name (Korean)',
+      description: 'Product Description (Korean)',
+      category: 'Category',
+      selectCategory: 'Please select',
+      seafood: 'Seafood',
+      grain: 'Grain',
+      vegetable: 'Vegetables',
+      fruit: 'Fruits',
+      condiment: 'Condiments/Sauces',
+      processed: 'Processed Food',
+      origin: 'Region of Origin',
+      price: 'Sale Price (KRW)',
+      costPrice: 'Cost Price (KRW)',
+      stock: 'Stock Quantity',
+      weight: 'Weight',
+      unit: 'Unit',
+      autoTranslate: 'Enable Automatic Translation',
+      autoTranslateDesc: '(English, Chinese, Japanese)',
+      submit: 'Register Product',
+      cancel: 'Cancel'
+    }
+  },
+  'zh-SG': {
+    name: '中文（新加坡）',
+    flag: '🇸🇬',
+    menu: {
+      dashboard: '仪表板',
+      products: '商品管理',
+      orders: '订单管理',
+      settlements: '结算',
+      logout: '登出'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: '农水产品全球销售代理平台',
+      description: '一次注册即可自动上传到全球10多个平台',
+      getStarted: '开始',
+      login: '登录'
+    },
+    features: {
+      title: '主要功能',
+      autoTranslation: '自动多语言翻译',
+      autoTranslationDesc: '用韩语输入后自动翻译成英语、中文、日语',
+      multiPlatform: '10个平台同时上传',
+      multiPlatformDesc: '自动注册到Amazon、Shopee、Lazada、Etsy等',
+      settlement: '自动结算系统',
+      settlementDesc: '汇率、手续费自动计算及综合结算'
+    },
+    platforms: {
+      title: '支持平台'
+    },
+    stats: {
+      totalProducts: '总商品数',
+      activeOrders: '进行中订单',
+      monthlyRevenue: '本月销售额',
+      pendingSettlements: '待结算'
+    },
+    quickActions: {
+      title: '快速开始',
+      newProduct: '新商品注册',
+      manageProducts: '商品管理',
+      checkOrders: '订单确认'
+    },
+    recentOrders: {
+      title: '最近订单'
+    },
+    auth: {
+      loginTitle: '登录',
+      registerTitle: '注册',
+      email: '邮箱',
+      password: '密码',
+      name: '姓名',
+      phone: '电话号码',
+      businessName: '企业名称',
+      loginButton: '登录',
+      registerButton: '注册',
+      noAccount: '还没有账号？',
+      hasAccount: '已有账号？'
+    },
+    product: {
+      title: '新商品注册',
+      name: '商品名称（韩语）',
+      description: '商品说明（韩语）',
+      category: '分类',
+      selectCategory: '请选择',
+      seafood: '水产品',
+      grain: '谷物',
+      vegetable: '蔬菜',
+      fruit: '水果',
+      condiment: '调味料/酱类',
+      processed: '加工食品',
+      origin: '原产地地区',
+      price: '销售价格（KRW）',
+      costPrice: '成本价（KRW）',
+      stock: '库存数量',
+      weight: '重量',
+      unit: '单位',
+      autoTranslate: '启用自动翻译',
+      autoTranslateDesc: '（英语、中文、日语）',
+      submit: '注册商品',
+      cancel: '取消'
+    }
+  },
+  'ms-SG': {
+    name: 'Bahasa Melayu (Singapura)',
+    flag: '🇸🇬',
+    menu: {
+      dashboard: 'Papan Pemuka',
+      products: 'Pengurusan Produk',
+      orders: 'Pengurusan Pesanan',
+      settlements: 'Penyelesaian',
+      logout: 'Log Keluar'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Platform Jualan Produk Pertanian Global',
+      description: 'Daftar sekali untuk muat naik automatik ke 10+ platform global',
+      getStarted: 'Mula',
+      login: 'Log Masuk'
+    },
+    features: {
+      title: 'Ciri Utama',
+      autoTranslation: 'Terjemahan Berbilang Bahasa Automatik',
+      autoTranslationDesc: 'Terjemahan automatik ke Bahasa Inggeris, Cina, Jepun',
+      multiPlatform: 'Muat Naik ke 10+ Platform',
+      multiPlatformDesc: 'Pendaftaran automatik ke Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Sistem Penyelesaian Automatik',
+      settlementDesc: 'Pengiraan kadar pertukaran dan yuran automatik'
+    },
+    platforms: {
+      title: 'Platform Yang Disokong'
+    },
+    stats: {
+      totalProducts: 'Jumlah Produk',
+      activeOrders: 'Pesanan Aktif',
+      monthlyRevenue: 'Hasil Bulanan',
+      pendingSettlements: 'Penyelesaian Tertangguh'
+    },
+    quickActions: {
+      title: 'Tindakan Pantas',
+      newProduct: 'Daftar Produk Baru',
+      manageProducts: 'Urus Produk',
+      checkOrders: 'Semak Pesanan'
+    },
+    recentOrders: {
+      title: 'Pesanan Terkini'
+    },
+    auth: {
+      loginTitle: 'Log Masuk',
+      registerTitle: 'Daftar',
+      email: 'E-mel',
+      password: 'Kata Laluan',
+      name: 'Nama',
+      phone: 'Nombor Telefon',
+      businessName: 'Nama Perniagaan',
+      loginButton: 'Log Masuk',
+      registerButton: 'Daftar',
+      noAccount: 'Belum ada akaun?',
+      hasAccount: 'Sudah ada akaun?'
+    },
+    product: {
+      title: 'Pendaftaran Produk Baru',
+      name: 'Nama Produk (Korea)',
+      description: 'Penerangan Produk (Korea)',
+      category: 'Kategori',
+      selectCategory: 'Sila pilih',
+      seafood: 'Makanan Laut',
+      grain: 'Bijirin',
+      vegetable: 'Sayur-sayuran',
+      fruit: 'Buah-buahan',
+      condiment: 'Perasa/Sos',
+      processed: 'Makanan Diproses',
+      origin: 'Wilayah Asal',
+      price: 'Harga Jualan (KRW)',
+      costPrice: 'Harga Kos (KRW)',
+      stock: 'Kuantiti Stok',
+      weight: 'Berat',
+      unit: 'Unit',
+      autoTranslate: 'Dayakan Terjemahan Automatik',
+      autoTranslateDesc: '(Inggeris, Cina, Jepun)',
+      submit: 'Daftar Produk',
+      cancel: 'Batal'
+    }
+  },
+  'ta-SG': {
+    name: 'தமிழ் (சிங்கப்பூர்)',
+    flag: '🇸🇬',
+    menu: {
+      dashboard: 'டாஷ்போர்டு',
+      products: 'தயாரிப்பு நிர்வாகம்',
+      orders: 'ஆர்டர் நிர்வாகம்',
+      settlements: 'தீர்வுகள்',
+      logout: 'வெளியேறு'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'உலகளாவிய வேளாண் தயாரிப்பு விற்பனை தளம்',
+      description: 'ஒரு முறை பதிவுசெய்து 10+ உலகளாவிய தளங்களில் தானாகப் பதிவேற்றவும்',
+      getStarted: 'தொடங்கு',
+      login: 'உள்நுழை'
+    },
+    features: {
+      title: 'முக்கிய அம்சங்கள்',
+      autoTranslation: 'தானியங்கி பல மொழி மொழிபெயர்ப்பு',
+      autoTranslationDesc: 'ஆங்கிலம், சீனம், ஜப்பானிய மொழிபெயர்ப்பு தானாக',
+      multiPlatform: '10+ தளங்களில் பதிவேற்று',
+      multiPlatformDesc: 'Amazon, Shopee, Lazada, Etsy-க்கு தானாகப் பதிவு செய்',
+      settlement: 'தானியங்கி தீர்வு அமைப்பு',
+      settlementDesc: 'மாற்று விகிதம் மற்றும் கட்டண தானியங்கி கணக்கீடு'
+    },
+    platforms: {
+      title: 'ஆதரவு தளங்கள்'
+    },
+    stats: {
+      totalProducts: 'மொத்த தயாரிப்புகள்',
+      activeOrders: 'செயலில் ஆர்டர்கள்',
+      monthlyRevenue: 'மாதாந்திர வருவாய்',
+      pendingSettlements: 'நிலுவையில் உள்ள தீர்வுகள்'
+    },
+    quickActions: {
+      title: 'விரைவு செயல்கள்',
+      newProduct: 'புதிய தயாரிப்பை பதிவுசெய்',
+      manageProducts: 'தயாரிப்புகளை நிர்வகி',
+      checkOrders: 'ஆர்டர்களை சரிபார்'
+    },
+    recentOrders: {
+      title: 'சமீபத்திய ஆர்டர்கள்'
+    },
+    auth: {
+      loginTitle: 'உள்நுழை',
+      registerTitle: 'பதிவுசெய்',
+      email: 'மின்னஞ்சல்',
+      password: 'கடவுச்சொல்',
+      name: 'பெயர்',
+      phone: 'தொலைபேசி எண்',
+      businessName: 'வணிக பெயர்',
+      loginButton: 'உள்நுழை',
+      registerButton: 'பதிவுசெய்',
+      noAccount: 'கணக்கு இல்லையா?',
+      hasAccount: 'ஏற்கனவே கணக்கு உள்ளதா?'
+    },
+    product: {
+      title: 'புதிய தயாரிப்பு பதிவு',
+      name: 'தயாரிப்பு பெயர் (கொரியன்)',
+      description: 'தயாரிப்பு விளக்கம் (கொரியன்)',
+      category: 'வகை',
+      selectCategory: 'தயவுசெய்து தேர்ந்தெடு',
+      seafood: 'கடல் உணவு',
+      grain: 'தானியம்',
+      vegetable: 'காய்கறிகள்',
+      fruit: 'பழங்கள்',
+      condiment: 'சுவையூட்டி/சாஸ்',
+      processed: 'பதப்படுத்தப்பட்ட உணவு',
+      origin: 'தோற்றப் பகுதி',
+      price: 'விற்பனை விலை (KRW)',
+      costPrice: 'செலவு விலை (KRW)',
+      stock: 'சரக்கு அளவு',
+      weight: 'எடை',
+      unit: 'அலகு',
+      autoTranslate: 'தானியங்கி மொழிபெயர்ப்பை இயக்கு',
+      autoTranslateDesc: '(ஆங்கிலம், சீனம், ஜப்பானியம்)',
+      submit: 'தயாரிப்பை பதிவு செய்',
+      cancel: 'ரத்து செய்'
+    }
+  },
+  'en-CA': {
+    name: 'English (Canada)',
+    flag: '🇨🇦',
+    menu: {
+      dashboard: 'Dashboard',
+      products: 'Products',
+      orders: 'Orders',
+      settlements: 'Settlements',
+      logout: 'Logout'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Global Agricultural Products Sales Platform',
+      description: 'Register once to automatically upload to 10+ global platforms',
+      getStarted: 'Get Started',
+      login: 'Login'
+    },
+    features: {
+      title: 'Key Features',
+      autoTranslation: 'Automatic Multi-language Translation',
+      autoTranslationDesc: 'Automatic translation to English, Chinese, Japanese',
+      multiPlatform: 'Upload to 10+ Platforms',
+      multiPlatformDesc: 'Automatic registration to Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Automatic Settlement System',
+      settlementDesc: 'Automatic exchange rate and fee calculation'
+    },
+    platforms: {
+      title: 'Supported Platforms'
+    },
+    stats: {
+      totalProducts: 'Total Products',
+      activeOrders: 'Active Orders',
+      monthlyRevenue: 'Monthly Revenue',
+      pendingSettlements: 'Pending Settlements'
+    },
+    quickActions: {
+      title: 'Quick Actions',
+      newProduct: 'Register New Product',
+      manageProducts: 'Manage Products',
+      checkOrders: 'Check Orders'
+    },
+    recentOrders: {
+      title: 'Recent Orders'
+    },
+    auth: {
+      loginTitle: 'Login',
+      registerTitle: 'Register',
+      email: 'Email',
+      password: 'Password',
+      name: 'Name',
+      phone: 'Phone Number',
+      businessName: 'Business Name',
+      loginButton: 'Login',
+      registerButton: 'Register',
+      noAccount: 'Don\'t have an account?',
+      hasAccount: 'Already have an account?'
+    },
+    product: {
+      title: 'New Product Registration',
+      name: 'Product Name (Korean)',
+      description: 'Product Description (Korean)',
+      category: 'Category',
+      selectCategory: 'Please select',
+      seafood: 'Seafood',
+      grain: 'Grain',
+      vegetable: 'Vegetables',
+      fruit: 'Fruits',
+      condiment: 'Condiments/Sauces',
+      processed: 'Processed Food',
+      origin: 'Region of Origin',
+      price: 'Sale Price (CAD)',
+      costPrice: 'Cost Price (CAD)',
+      stock: 'Stock Quantity',
+      weight: 'Weight',
+      unit: 'Unit',
+      autoTranslate: 'Enable Automatic Translation',
+      autoTranslateDesc: '(English, Chinese, Japanese)',
+      submit: 'Register Product',
+      cancel: 'Cancel'
+    }
+  },
+  'fr-CA': {
+    name: 'Français (Canada)',
+    flag: '🇨🇦',
+    menu: {
+      dashboard: 'Tableau de bord',
+      products: 'Produits',
+      orders: 'Commandes',
+      settlements: 'Règlements',
+      logout: 'Déconnexion'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Plateforme de vente mondiale de produits agricoles',
+      description: 'Inscrivez-vous une fois pour télécharger automatiquement vers 10+ plateformes mondiales',
+      getStarted: 'Commencer',
+      login: 'Connexion'
+    },
+    features: {
+      title: 'Fonctionnalités clés',
+      autoTranslation: 'Traduction multilingue automatique',
+      autoTranslationDesc: 'Traduction automatique en anglais, chinois, japonais',
+      multiPlatform: 'Téléchargement vers 10+ plateformes',
+      multiPlatformDesc: 'Inscription automatique sur Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Système de règlement automatique',
+      settlementDesc: 'Calcul automatique des taux de change et des frais'
+    },
+    platforms: {
+      title: 'Plateformes prises en charge'
+    },
+    stats: {
+      totalProducts: 'Produits totaux',
+      activeOrders: 'Commandes actives',
+      monthlyRevenue: 'Revenus mensuels',
+      pendingSettlements: 'Règlements en attente'
+    },
+    quickActions: {
+      title: 'Actions rapides',
+      newProduct: 'Enregistrer nouveau produit',
+      manageProducts: 'Gérer les produits',
+      checkOrders: 'Vérifier les commandes'
+    },
+    recentOrders: {
+      title: 'Commandes récentes'
+    },
+    auth: {
+      loginTitle: 'Connexion',
+      registerTitle: 'S\'inscrire',
+      email: 'E-mail',
+      password: 'Mot de passe',
+      name: 'Nom',
+      phone: 'Numéro de téléphone',
+      businessName: 'Nom de l\'entreprise',
+      loginButton: 'Connexion',
+      registerButton: 'S\'inscrire',
+      noAccount: 'Pas de compte?',
+      hasAccount: 'Vous avez déjà un compte?'
+    },
+    product: {
+      title: 'Nouvel enregistrement de produit',
+      name: 'Nom du produit (coréen)',
+      description: 'Description du produit (coréen)',
+      category: 'Catégorie',
+      selectCategory: 'Veuillez sélectionner',
+      seafood: 'Fruits de mer',
+      grain: 'Céréales',
+      vegetable: 'Légumes',
+      fruit: 'Fruits',
+      condiment: 'Condiments/Sauces',
+      processed: 'Aliments transformés',
+      origin: 'Région d\'origine',
+      price: 'Prix de vente (CAD)',
+      costPrice: 'Prix de revient (CAD)',
+      stock: 'Quantité en stock',
+      weight: 'Poids',
+      unit: 'Unité',
+      autoTranslate: 'Activer la traduction automatique',
+      autoTranslateDesc: '(Anglais, chinois, japonais)',
+      submit: 'Enregistrer le produit',
+      cancel: 'Annuler'
+    }
+  },
+  'en-EU': {
+    name: 'English (EU)',
+    flag: '🇪🇺',
+    menu: {
+      dashboard: 'Dashboard',
+      products: 'Products',
+      orders: 'Orders',
+      settlements: 'Settlements',
+      logout: 'Logout'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Global Agricultural Products Sales Platform',
+      description: 'Register once to automatically upload to 10+ global platforms',
+      getStarted: 'Get Started',
+      login: 'Login'
+    },
+    features: {
+      title: 'Key Features',
+      autoTranslation: 'Automatic Multi-language Translation',
+      autoTranslationDesc: 'Automatic translation to English, Chinese, Japanese',
+      multiPlatform: 'Upload to 10+ Platforms',
+      multiPlatformDesc: 'Automatic registration to Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Automatic Settlement System',
+      settlementDesc: 'Automatic exchange rate and fee calculation'
+    },
+    platforms: {
+      title: 'Supported Platforms'
+    },
+    stats: {
+      totalProducts: 'Total Products',
+      activeOrders: 'Active Orders',
+      monthlyRevenue: 'Monthly Revenue',
+      pendingSettlements: 'Pending Settlements'
+    },
+    quickActions: {
+      title: 'Quick Actions',
+      newProduct: 'Register New Product',
+      manageProducts: 'Manage Products',
+      checkOrders: 'Check Orders'
+    },
+    recentOrders: {
+      title: 'Recent Orders'
+    },
+    auth: {
+      loginTitle: 'Login',
+      registerTitle: 'Register',
+      email: 'Email',
+      password: 'Password',
+      name: 'Name',
+      phone: 'Phone Number',
+      businessName: 'Business Name',
+      loginButton: 'Login',
+      registerButton: 'Register',
+      noAccount: 'Don\'t have an account?',
+      hasAccount: 'Already have an account?'
+    },
+    product: {
+      title: 'New Product Registration',
+      name: 'Product Name (Korean)',
+      description: 'Product Description (Korean)',
+      category: 'Category',
+      selectCategory: 'Please select',
+      seafood: 'Seafood',
+      grain: 'Grain',
+      vegetable: 'Vegetables',
+      fruit: 'Fruits',
+      condiment: 'Condiments/Sauces',
+      processed: 'Processed Food',
+      origin: 'Region of Origin',
+      price: 'Sale Price (EUR)',
+      costPrice: 'Cost Price (EUR)',
+      stock: 'Stock Quantity',
+      weight: 'Weight',
+      unit: 'Unit',
+      autoTranslate: 'Enable Automatic Translation',
+      autoTranslateDesc: '(English, Chinese, Japanese)',
+      submit: 'Register Product',
+      cancel: 'Cancel'
+    }
+  },
+  'fr-EU': {
+    name: 'Français (UE)',
+    flag: '🇪🇺',
+    menu: {
+      dashboard: 'Tableau de bord',
+      products: 'Produits',
+      orders: 'Commandes',
+      settlements: 'Règlements',
+      logout: 'Déconnexion'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Plateforme de vente mondiale de produits agricoles',
+      description: 'Inscrivez-vous une fois pour télécharger automatiquement vers 10+ plateformes mondiales',
+      getStarted: 'Commencer',
+      login: 'Connexion'
+    },
+    features: {
+      title: 'Fonctionnalités clés',
+      autoTranslation: 'Traduction multilingue automatique',
+      autoTranslationDesc: 'Traduction automatique en anglais, chinois, japonais',
+      multiPlatform: 'Téléchargement vers 10+ plateformes',
+      multiPlatformDesc: 'Inscription automatique sur Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Système de règlement automatique',
+      settlementDesc: 'Calcul automatique des taux de change et des frais'
+    },
+    platforms: {
+      title: 'Plateformes prises en charge'
+    },
+    stats: {
+      totalProducts: 'Produits totaux',
+      activeOrders: 'Commandes actives',
+      monthlyRevenue: 'Revenus mensuels',
+      pendingSettlements: 'Règlements en attente'
+    },
+    quickActions: {
+      title: 'Actions rapides',
+      newProduct: 'Enregistrer nouveau produit',
+      manageProducts: 'Gérer les produits',
+      checkOrders: 'Vérifier les commandes'
+    },
+    recentOrders: {
+      title: 'Commandes récentes'
+    },
+    auth: {
+      loginTitle: 'Connexion',
+      registerTitle: 'S\'inscrire',
+      email: 'E-mail',
+      password: 'Mot de passe',
+      name: 'Nom',
+      phone: 'Numéro de téléphone',
+      businessName: 'Nom de l\'entreprise',
+      loginButton: 'Connexion',
+      registerButton: 'S\'inscrire',
+      noAccount: 'Pas de compte?',
+      hasAccount: 'Vous avez déjà un compte?'
+    },
+    product: {
+      title: 'Nouvel enregistrement de produit',
+      name: 'Nom du produit (coréen)',
+      description: 'Description du produit (coréen)',
+      category: 'Catégorie',
+      selectCategory: 'Veuillez sélectionner',
+      seafood: 'Fruits de mer',
+      grain: 'Céréales',
+      vegetable: 'Légumes',
+      fruit: 'Fruits',
+      condiment: 'Condiments/Sauces',
+      processed: 'Aliments transformés',
+      origin: 'Région d\'origine',
+      price: 'Prix de vente (EUR)',
+      costPrice: 'Prix de revient (EUR)',
+      stock: 'Quantité en stock',
+      weight: 'Poids',
+      unit: 'Unité',
+      autoTranslate: 'Activer la traduction automatique',
+      autoTranslateDesc: '(Anglais, chinois, japonais)',
+      submit: 'Enregistrer le produit',
+      cancel: 'Annuler'
+    }
+  },
+  'de-EU': {
+    name: 'Deutsch (EU)',
+    flag: '🇪🇺',
+    menu: {
+      dashboard: 'Dashboard',
+      products: 'Produkte',
+      orders: 'Bestellungen',
+      settlements: 'Abrechnungen',
+      logout: 'Abmelden'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Globale Verkaufsplattform für landwirtschaftliche Produkte',
+      description: 'Einmal registrieren, um automatisch auf 10+ globale Plattformen hochzuladen',
+      getStarted: 'Loslegen',
+      login: 'Anmelden'
+    },
+    features: {
+      title: 'Hauptfunktionen',
+      autoTranslation: 'Automatische mehrsprachige Übersetzung',
+      autoTranslationDesc: 'Automatische Übersetzung ins Englische, Chinesische, Japanische',
+      multiPlatform: 'Upload auf 10+ Plattformen',
+      multiPlatformDesc: 'Automatische Registrierung bei Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Automatisches Abrechnungssystem',
+      settlementDesc: 'Automatische Berechnung von Wechselkursen und Gebühren'
+    },
+    platforms: {
+      title: 'Unterstützte Plattformen'
+    },
+    stats: {
+      totalProducts: 'Gesamtprodukte',
+      activeOrders: 'Aktive Bestellungen',
+      monthlyRevenue: 'Monatlicher Umsatz',
+      pendingSettlements: 'Ausstehende Abrechnungen'
+    },
+    quickActions: {
+      title: 'Schnellaktionen',
+      newProduct: 'Neues Produkt registrieren',
+      manageProducts: 'Produkte verwalten',
+      checkOrders: 'Bestellungen überprüfen'
+    },
+    recentOrders: {
+      title: 'Letzte Bestellungen'
+    },
+    auth: {
+      loginTitle: 'Anmelden',
+      registerTitle: 'Registrieren',
+      email: 'E-Mail',
+      password: 'Passwort',
+      name: 'Name',
+      phone: 'Telefonnummer',
+      businessName: 'Firmenname',
+      loginButton: 'Anmelden',
+      registerButton: 'Registrieren',
+      noAccount: 'Noch kein Konto?',
+      hasAccount: 'Bereits ein Konto?'
+    },
+    product: {
+      title: 'Neue Produktregistrierung',
+      name: 'Produktname (Koreanisch)',
+      description: 'Produktbeschreibung (Koreanisch)',
+      category: 'Kategorie',
+      selectCategory: 'Bitte wählen',
+      seafood: 'Meeresfrüchte',
+      grain: 'Getreide',
+      vegetable: 'Gemüse',
+      fruit: 'Obst',
+      condiment: 'Gewürze/Saucen',
+      processed: 'Verarbeitete Lebensmittel',
+      origin: 'Herkunftsregion',
+      price: 'Verkaufspreis (EUR)',
+      costPrice: 'Kostenpreis (EUR)',
+      stock: 'Lagermenge',
+      weight: 'Gewicht',
+      unit: 'Einheit',
+      autoTranslate: 'Automatische Übersetzung aktivieren',
+      autoTranslateDesc: '(Englisch, Chinesisch, Japanisch)',
+      submit: 'Produkt registrieren',
+      cancel: 'Abbrechen'
+    }
+  },
+  'ar-AE': {
+    name: 'العربية (الإمارات)',
+    flag: '🇦🇪',
+    menu: {
+      dashboard: 'لوحة التحكم',
+      products: 'المنتجات',
+      orders: 'الطلبات',
+      settlements: 'التسويات',
+      logout: 'تسجيل الخروج'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'منصة المبيعات العالمية للمنتجات الزراعية',
+      description: 'سجل مرة واحدة للتحميل التلقائي إلى 10+ منصات عالمية',
+      getStarted: 'ابدأ',
+      login: 'تسجيل الدخول'
+    },
+    features: {
+      title: 'الميزات الرئيسية',
+      autoTranslation: 'الترجمة التلقائية متعددة اللغات',
+      autoTranslationDesc: 'ترجمة تلقائية إلى الإنجليزية والصينية واليابانية',
+      multiPlatform: 'التحميل إلى 10+ منصات',
+      multiPlatformDesc: 'التسجيل التلقائي في Amazon وShopee وLazada وEtsy',
+      settlement: 'نظام التسوية التلقائي',
+      settlementDesc: 'الحساب التلقائي لأسعار الصرف والرسوم'
+    },
+    platforms: {
+      title: 'المنصات المدعومة'
+    },
+    stats: {
+      totalProducts: 'إجمالي المنتجات',
+      activeOrders: 'الطلبات النشطة',
+      monthlyRevenue: 'الإيرادات الشهرية',
+      pendingSettlements: 'التسويات المعلقة'
+    },
+    quickActions: {
+      title: 'إجراءات سريعة',
+      newProduct: 'تسجيل منتج جديد',
+      manageProducts: 'إدارة المنتجات',
+      checkOrders: 'التحقق من الطلبات'
+    },
+    recentOrders: {
+      title: 'الطلبات الأخيرة'
+    },
+    auth: {
+      loginTitle: 'تسجيل الدخول',
+      registerTitle: 'التسجيل',
+      email: 'البريد الإلكتروني',
+      password: 'كلمة المرور',
+      name: 'الاسم',
+      phone: 'رقم الهاتف',
+      businessName: 'اسم الشركة',
+      loginButton: 'تسجيل الدخول',
+      registerButton: 'التسجيل',
+      noAccount: 'ليس لديك حساب؟',
+      hasAccount: 'هل لديك حساب بالفعل؟'
+    },
+    product: {
+      title: 'تسجيل منتج جديد',
+      name: 'اسم المنتج (كوري)',
+      description: 'وصف المنتج (كوري)',
+      category: 'الفئة',
+      selectCategory: 'يرجى الاختيار',
+      seafood: 'المأكولات البحرية',
+      grain: 'الحبوب',
+      vegetable: 'الخضروات',
+      fruit: 'الفواكه',
+      condiment: 'التوابل/الصلصات',
+      processed: 'الأطعمة المصنعة',
+      origin: 'منطقة المنشأ',
+      price: 'سعر البيع (درهم)',
+      costPrice: 'سعر التكلفة (درهم)',
+      stock: 'كمية المخزون',
+      weight: 'الوزن',
+      unit: 'الوحدة',
+      autoTranslate: 'تفعيل الترجمة التلقائية',
+      autoTranslateDesc: '(الإنجليزية، الصينية، اليابانية)',
+      submit: 'تسجيل المنتج',
+      cancel: 'إلغاء'
+    }
+  },
+  'en-AE': {
+    name: 'English (UAE)',
+    flag: '🇦🇪',
+    menu: {
+      dashboard: 'Dashboard',
+      products: 'Products',
+      orders: 'Orders',
+      settlements: 'Settlements',
+      logout: 'Logout'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Global Agricultural Products Sales Platform',
+      description: 'Register once to automatically upload to 10+ global platforms',
+      getStarted: 'Get Started',
+      login: 'Login'
+    },
+    features: {
+      title: 'Key Features',
+      autoTranslation: 'Automatic Multi-language Translation',
+      autoTranslationDesc: 'Automatic translation to English, Chinese, Japanese',
+      multiPlatform: 'Upload to 10+ Platforms',
+      multiPlatformDesc: 'Automatic registration to Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Automatic Settlement System',
+      settlementDesc: 'Automatic exchange rate and fee calculation'
+    },
+    platforms: {
+      title: 'Supported Platforms'
+    },
+    stats: {
+      totalProducts: 'Total Products',
+      activeOrders: 'Active Orders',
+      monthlyRevenue: 'Monthly Revenue',
+      pendingSettlements: 'Pending Settlements'
+    },
+    quickActions: {
+      title: 'Quick Actions',
+      newProduct: 'Register New Product',
+      manageProducts: 'Manage Products',
+      checkOrders: 'Check Orders'
+    },
+    recentOrders: {
+      title: 'Recent Orders'
+    },
+    auth: {
+      loginTitle: 'Login',
+      registerTitle: 'Register',
+      email: 'Email',
+      password: 'Password',
+      name: 'Name',
+      phone: 'Phone Number',
+      businessName: 'Business Name',
+      loginButton: 'Login',
+      registerButton: 'Register',
+      noAccount: 'Don\'t have an account?',
+      hasAccount: 'Already have an account?'
+    },
+    product: {
+      title: 'New Product Registration',
+      name: 'Product Name (Korean)',
+      description: 'Product Description (Korean)',
+      category: 'Category',
+      selectCategory: 'Please select',
+      seafood: 'Seafood',
+      grain: 'Grain',
+      vegetable: 'Vegetables',
+      fruit: 'Fruits',
+      condiment: 'Condiments/Sauces',
+      processed: 'Processed Food',
+      origin: 'Region of Origin',
+      price: 'Sale Price (AED)',
+      costPrice: 'Cost Price (AED)',
+      stock: 'Stock Quantity',
+      weight: 'Weight',
+      unit: 'Unit',
+      autoTranslate: 'Enable Automatic Translation',
+      autoTranslateDesc: '(English, Chinese, Japanese)',
+      submit: 'Register Product',
+      cancel: 'Cancel'
+    }
+  },
+  'ar-IL': {
+    name: 'العربية (إسرائيل)',
+    flag: '🇮🇱',
+    menu: {
+      dashboard: 'لوحة التحكم',
+      products: 'المنتجات',
+      orders: 'الطلبات',
+      settlements: 'التسويات',
+      logout: 'تسجيل الخروج'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'منصة المبيعات العالمية للمنتجات الزراعية',
+      description: 'سجل مرة واحدة للتحميل التلقائي إلى 10+ منصات عالمية',
+      getStarted: 'ابدأ',
+      login: 'تسجيل الدخول'
+    },
+    features: {
+      title: 'الميزات الرئيسية',
+      autoTranslation: 'الترجمة التلقائية متعددة اللغات',
+      autoTranslationDesc: 'ترجمة تلقائية إلى الإنجليزية والصينية واليابانية',
+      multiPlatform: 'التحميل إلى 10+ منصات',
+      multiPlatformDesc: 'التسجيل التلقائي في Amazon وShopee وLazada وEtsy',
+      settlement: 'نظام التسوية التلقائي',
+      settlementDesc: 'الحساب التلقائي لأسعار الصرف والرسوم'
+    },
+    platforms: {
+      title: 'المنصات المدعومة'
+    },
+    stats: {
+      totalProducts: 'إجمالي المنتجات',
+      activeOrders: 'الطلبات النشطة',
+      monthlyRevenue: 'الإيرادات الشهرية',
+      pendingSettlements: 'التسويات المعلقة'
+    },
+    quickActions: {
+      title: 'إجراءات سريعة',
+      newProduct: 'تسجيل منتج جديد',
+      manageProducts: 'إدارة المنتجات',
+      checkOrders: 'التحقق من الطلبات'
+    },
+    recentOrders: {
+      title: 'الطلبات الأخيرة'
+    },
+    auth: {
+      loginTitle: 'تسجيل الدخول',
+      registerTitle: 'التسجيل',
+      email: 'البريد الإلكتروني',
+      password: 'كلمة المرور',
+      name: 'الاسم',
+      phone: 'رقم الهاتف',
+      businessName: 'اسم الشركة',
+      loginButton: 'تسجيل الدخول',
+      registerButton: 'التسجيل',
+      noAccount: 'ليس لديك حساب؟',
+      hasAccount: 'هل لديك حساب بالفعل؟'
+    },
+    product: {
+      title: 'تسجيل منتج جديد',
+      name: 'اسم المنتج (كوري)',
+      description: 'وصف المنتج (كوري)',
+      category: 'الفئة',
+      selectCategory: 'يرجى الاختيار',
+      seafood: 'المأكولات البحرية',
+      grain: 'الحبوب',
+      vegetable: 'الخضروات',
+      fruit: 'الفواكه',
+      condiment: 'التوابل/الصلصات',
+      processed: 'الأطعمة المصنعة',
+      origin: 'منطقة المنشأ',
+      price: 'سعر البيع (شيكل)',
+      costPrice: 'سعر التكلفة (شيكل)',
+      stock: 'كمية المخزون',
+      weight: 'الوزن',
+      unit: 'الوحدة',
+      autoTranslate: 'تفعيل الترجمة التلقائية',
+      autoTranslateDesc: '(الإنجليزية، الصينية، اليابانية)',
+      submit: 'تسجيل المنتج',
+      cancel: 'إلغاء'
+    }
+  },
+  'ru-KZ': {
+    name: 'Русский (Казахстан)',
+    flag: '🇰🇿',
+    menu: {
+      dashboard: 'Панель управления',
+      products: 'Продукты',
+      orders: 'Заказы',
+      settlements: 'Расчёты',
+      logout: 'Выход'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Глобальная платформа продаж сельскохозяйственной продукции',
+      description: 'Зарегистрируйтесь один раз для автоматической загрузки на 10+ глобальных платформ',
+      getStarted: 'Начать',
+      login: 'Вход'
+    },
+    features: {
+      title: 'Основные функции',
+      autoTranslation: 'Автоматический многоязычный перевод',
+      autoTranslationDesc: 'Автоматический перевод на английский, китайский, японский',
+      multiPlatform: 'Загрузка на 10+ платформ',
+      multiPlatformDesc: 'Автоматическая регистрация на Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Автоматическая система расчётов',
+      settlementDesc: 'Автоматический расчёт обменного курса и комиссий'
+    },
+    platforms: {
+      title: 'Поддерживаемые платформы'
+    },
+    stats: {
+      totalProducts: 'Всего продуктов',
+      activeOrders: 'Активные заказы',
+      monthlyRevenue: 'Ежемесячный доход',
+      pendingSettlements: 'Ожидающие расчёты'
+    },
+    quickActions: {
+      title: 'Быстрые действия',
+      newProduct: 'Зарегистрировать новый продукт',
+      manageProducts: 'Управление продуктами',
+      checkOrders: 'Проверить заказы'
+    },
+    recentOrders: {
+      title: 'Последние заказы'
+    },
+    auth: {
+      loginTitle: 'Вход',
+      registerTitle: 'Регистрация',
+      email: 'Email',
+      password: 'Пароль',
+      name: 'Имя',
+      phone: 'Номер телефона',
+      businessName: 'Название компании',
+      loginButton: 'Войти',
+      registerButton: 'Зарегистрироваться',
+      noAccount: 'Нет аккаунта?',
+      hasAccount: 'Уже есть аккаунт?'
+    },
+    product: {
+      title: 'Регистрация нового продукта',
+      name: 'Название продукта (корейский)',
+      description: 'Описание продукта (корейский)',
+      category: 'Категория',
+      selectCategory: 'Пожалуйста, выберите',
+      seafood: 'Морепродукты',
+      grain: 'Зерно',
+      vegetable: 'Овощи',
+      fruit: 'Фрукты',
+      condiment: 'Приправы/Соусы',
+      processed: 'Обработанные продукты',
+      origin: 'Регион происхождения',
+      price: 'Цена продажи (тенге)',
+      costPrice: 'Себестоимость (тенге)',
+      stock: 'Количество на складе',
+      weight: 'Вес',
+      unit: 'Единица',
+      autoTranslate: 'Включить автоматический перевод',
+      autoTranslateDesc: '(Английский, китайский, японский)',
+      submit: 'Зарегистрировать продукт',
+      cancel: 'Отмена'
+    }
+  },
+  'ru-UZ': {
+    name: 'Русский (Узбекистан)',
+    flag: '🇺🇿',
+    menu: {
+      dashboard: 'Панель управления',
+      products: 'Продукты',
+      orders: 'Заказы',
+      settlements: 'Расчёты',
+      logout: 'Выход'
+    },
+    home: {
+      title: 'Farm2World',
+      subtitle: 'Глобальная платформа продаж сельскохозяйственной продукции',
+      description: 'Зарегистрируйтесь один раз для автоматической загрузки на 10+ глобальных платформ',
+      getStarted: 'Начать',
+      login: 'Вход'
+    },
+    features: {
+      title: 'Основные функции',
+      autoTranslation: 'Автоматический многоязычный перевод',
+      autoTranslationDesc: 'Автоматический перевод на английский, китайский, японский',
+      multiPlatform: 'Загрузка на 10+ платформ',
+      multiPlatformDesc: 'Автоматическая регистрация на Amazon, Shopee, Lazada, Etsy',
+      settlement: 'Автоматическая система расчётов',
+      settlementDesc: 'Автоматический расчёт обменного курса и комиссий'
+    },
+    platforms: {
+      title: 'Поддерживаемые платформы'
+    },
+    stats: {
+      totalProducts: 'Всего продуктов',
+      activeOrders: 'Активные заказы',
+      monthlyRevenue: 'Ежемесячный доход',
+      pendingSettlements: 'Ожидающие расчёты'
+    },
+    quickActions: {
+      title: 'Быстрые действия',
+      newProduct: 'Зарегистрировать новый продукт',
+      manageProducts: 'Управление продуктами',
+      checkOrders: 'Проверить заказы'
+    },
+    recentOrders: {
+      title: 'Последние заказы'
+    },
+    auth: {
+      loginTitle: 'Вход',
+      registerTitle: 'Регистрация',
+      email: 'Email',
+      password: 'Пароль',
+      name: 'Имя',
+      phone: 'Номер телефона',
+      businessName: 'Название компании',
+      loginButton: 'Войти',
+      registerButton: 'Зарегистрироваться',
+      noAccount: 'Нет аккаунта?',
+      hasAccount: 'Уже есть аккаунт?'
+    },
+    product: {
+      title: 'Регистрация нового продукта',
+      name: 'Название продукта (корейский)',
+      description: 'Описание продукта (корейский)',
+      category: 'Категория',
+      selectCategory: 'Пожалуйста, выберите',
+      seafood: 'Морепродукты',
+      grain: 'Зерно',
+      vegetable: 'Овощи',
+      fruit: 'Фрукты',
+      condiment: 'Приправы/Соусы',
+      processed: 'Обработанные продукты',
+      origin: 'Регион происхождения',
+      price: 'Цена продажи (сум)',
+      costPrice: 'Себестоимость (сум)',
+      stock: 'Количество на складе',
+      weight: 'Вес',
+      unit: 'Единица',
+      autoTranslate: 'Включить автоматический перевод',
+      autoTranslateDesc: '(Английский, китайский, японский)',
+      submit: 'Зарегистрировать продукт',
+      cancel: 'Отмена'
+    }
   }
 };
 
